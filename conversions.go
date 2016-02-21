@@ -1,4 +1,6 @@
-// Package conversions performs a variety of unit translations
+// Package conversions performs a variety of unit translations in
+// a type-safe manner.
+// Copyright (c) 2015 David J Peacock - david@davidjpeacock.ca
 package conversions
 
 import "fmt"
