@@ -41,3 +41,21 @@ func TestInchToCentimetre(t *testing.T) {
 		t.Errorf("Expected 3.937007874015748, but got %g", answer)
 	}
 }
+
+func TestPsiToBar(t *testing.T) {
+	t.Log("Converting psi to bar... (expected bar: 0.0689476)")
+	answer := conversions.PsiToBar(1)
+
+	if answer != 0.0689476 {
+		t.Errorf("Expected 0.0689476, but got %g", answer)
+	}
+}
+
+func TestBarToPsi(t *testing.T) {
+	t.Log("Converting bar to psi... (expected psi: 14.5038)")
+	answer := conversions.BarToPsi(1)
+
+	if answer != 14.5038 {
+		t.Errorf("Expected 14.5038, but got %g", answer)
+	}
+}

@@ -11,3 +11,9 @@ func CentimetreToInch(cm Centimetre) Inch { return Inch(cm * 0.394) }
 
 // InchToCentimetre converts inches to centimetres
 func InchToCentimetre(in Inch) Centimetre { return Centimetre(in / 2.54) }
+
+// PsiToBar converts pounds per square inch to bar
+func PsiToBar(psi Psi) Bar { return Bar(psi * 0.0689476) }
+
+// BarToPsi converts bar to pounds per square inch
+func BarToPsi(bar Bar) Psi { return Psi(bar * 14.5038) }
