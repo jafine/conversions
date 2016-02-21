@@ -4,11 +4,12 @@
 
 This library is designed to provide safe conversions of units; each unit has a unique type T to prevent accidental unit mis-conversion.
 
+## Contributing
 Pull requests are very welcome; please follow the structure and ensure you provide tests for new conversions.
 
-Usage example:
+## Usage
 
-```
+```go
 package main
 
 import (
@@ -25,7 +26,7 @@ func main() {
 }
 ```
 
-Output example:
+### Output
 
 ```
 [peacock@trashcan psitobar]$ ./psitobar
