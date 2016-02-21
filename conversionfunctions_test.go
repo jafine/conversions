@@ -25,7 +25,7 @@ func TestFootToMetre(t *testing.T) {
 }
 
 func TestCentimetreToInch(t *testing.T) {
-	t.Log("Converting centimetres to inches... (expected inches: 3.94)")
+	t.Log("Converting centimetres to inches... (expected inches: 3.9400000000000004)")
 	answer := conversions.CentimetreToInch(10)
 
 	if answer != 3.9400000000000004 {
