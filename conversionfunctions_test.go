@@ -59,3 +59,57 @@ func TestBarToPsi(t *testing.T) {
 		t.Errorf("Expected 14.5038, but got %g", answer)
 	}
 }
+
+func TestCelsiusToFahrenheit(t *testing.T) {
+	t.Log("Converting celsius to fahrenheit... (expected fahrenheit: 32)")
+	answer := conversions.CelsiusToFahrenheit(0)
+
+	if answer != 32 {
+		t.Errorf("Expected 32, but got %g", answer)
+	}
+}
+
+func TestFahrenheitToCelsius(t *testing.T) {
+	t.Log("Converting fahrenheit to celsius... (expected celsius: -40")
+	answer := conversions.FahrenheitToCelsius(-40)
+
+	if answer != -40 {
+		t.Errorf("Expected -40, but got %g", answer)
+	}
+}
+
+func TestKelvinToCelsius(t *testing.T) {
+	t.Log("Converting kelvin to celsius... (expected celsius: 0)")
+	answer := conversions.KelvinToCelsius(273.15)
+
+	if answer != 0 {
+		t.Errorf("Expected 0, but got %g", answer)
+	}
+}
+
+func TestCelsiusToKelvin(t *testing.T) {
+	t.Log("Converting celsius to kelvin... (expected kelvin: 0)")
+	answer := conversions.CelsiusToKelvin(-273.15)
+
+	if answer != 0 {
+		t.Errorf("Expected 0, but got %g", answer)
+	}
+}
+
+func TestKelvinToFahrenheit(t *testing.T) {
+	t.Log("Converting kelvin to fahrenheit... (expected fahrenheit: -459.67)")
+	answer := conversions.KelvinToFahrenheit(0)
+
+	if answer != -459.67 {
+		t.Errorf("Expected -459.67, but got %g", answer)
+	}
+}
+
+func TestFahrenheitToKelvin(t *testing.T) {
+	t.Log("Converting fahrenheit to kelvin... (expected kelvin: 285.9277777777778)")
+	answer := conversions.FahrenheitToKelvin(55)
+
+	if answer != 285.9277777777778 {
+		t.Errorf("Expected 285.9277777777778, but got %g", answer)
+	}
+}
