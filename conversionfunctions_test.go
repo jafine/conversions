@@ -6,7 +6,7 @@ import (
 	"github.com/davidjpeacock/conversions"
 )
 
-func TestMetreToFoott(t *testing.T) {
+func TestMetreToFoot(t *testing.T) {
 	t.Log("Converting metres to feet... (expected feet: 9.843)")
 	answer := conversions.MetreToFoot(3)
 
