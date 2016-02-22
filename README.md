@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/davidjpeacock/conversions.svg?branch=master)](https://travis-ci.org/davidjpeacock/conversions)
 [![GoDoc](https://godoc.org/github.com/davidjpeacock/conversions?status.svg)](https://godoc.org/github.com/davidjpeacock/conversions)
-[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://img.shields.io/badge/license-GPL-blue.svg)
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/davidjpeacock/conversions/master/LICENSE)
 
 
 This library is designed to provide safe conversions of units; each unit has a unique type T to prevent accidental unit mis-conversion.
