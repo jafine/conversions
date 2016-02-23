@@ -1,10 +1,20 @@
 package conversions_test
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/davidjpeacock/conversions"
 )
+
+func ExamplePsiToBar() {
+	t := (30)
+
+	psi := conversions.Psi(t)
+	fmt.Printf("%s = %s\n", psi, conversions.PsiToBar(psi))
+	// Output:
+	// 30psi = 2.068428bar
+}
 
 func TestMetreToFoot(t *testing.T) {
 	t.Log("Converting metres to feet... (expected feet: 9.843)")
