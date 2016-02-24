@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/davidjpeacock/conversions.svg?branch=master)](https://travis-ci.org/davidjpeacock/conversions)
 [![GoDoc](https://godoc.org/github.com/davidjpeacock/conversions?status.svg)](https://godoc.org/github.com/davidjpeacock/conversions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/davidjpeacock/conversions)](https://goreportcard.com/report/github.com/davidjpeacock/conversions)
 [![License](https://img.shields.io/badge/license-GPL-blue.svg)](https://raw.githubusercontent.com/davidjpeacock/conversions/master/LICENSE)
 
 
